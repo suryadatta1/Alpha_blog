@@ -1,3 +1,4 @@
+# rubocop:todo Style/Documentation
 class CreateArticles < ActiveRecord::Migration[6.0]
   def change
     create_table :articles do |t|
@@ -6,3 +7,4 @@ class CreateArticles < ActiveRecord::Migration[6.0]
     end
   end
 end
+# rubocop:enable Style/Documentation
